@@ -3,7 +3,7 @@
 #live_user
 #telegram_tokens
 #you_tokens
-FROM debian
+FROM debian:buster-slim
 
 ENV HOME=/root \
     TERM=xterm \
