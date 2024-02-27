@@ -3,7 +3,7 @@
 #live_user
 #telegram_tokens
 #you_tokens
-FROM php:7.4-apache
+FROM debian
 
 ENV HOME=/root \
     TERM=xterm \
