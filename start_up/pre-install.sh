@@ -17,7 +17,7 @@ echo "version :"
 mkdir -p /root/lia_pro
 #apt install /tmp/megacmd-Debian_11_amd64.deb -y 2>/dev/null >/dev/null
 #rm /tmp/*.deb
-pip3 install ffmpeg requests TikTokLive --break-system-packages
+pip3 install ffmpeg requests TikTokLive==5.0.8 --break-system-packages
 git clone https://github.com/samarmar0vitch/lia_pro.git /root/lia_pro
 
 
