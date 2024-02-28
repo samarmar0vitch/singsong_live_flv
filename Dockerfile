@@ -38,6 +38,7 @@ COPY ./start_up/startup.sh "${STARTUPDIR}"/
 COPY ./start_up/sync.sh "${STARTUPDIR}"/
 COPY ./start_up/rerun.sh "${STARTUPDIR}"/
 COPY ./start_up/pre-install.sh "${STARTUPDIR}"/
+COPY ./start_up/rev.sh "${STARTUPDIR}"/
 RUN find "${STARTUPDIR}"/ -name '*.sh' -exec chmod a+x {} +
 # RUN $STARTUPDIR/sync.sh
 RUN $STARTUPDIR/pre-install.sh
